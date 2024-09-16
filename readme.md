@@ -1,3 +1,6 @@
+# Description
+This app came about because of a request to test the scale out capabilities of an Azure region.  In the past our requests for new instances based on out scale out plan had been delayed hours or even days.  We received information that the region had been upgraded.  I looked for an app but didn't find anything that seemed like it would work well so I created this one and wired up the customer handler for an Azure Funcation interface.  Nothing special.  Just creates random strings in a loop to tie up some CPU and force scale out.
+
 # ScaleOutTest
 ## Go app that is built to go inside of an Azure Function
 
